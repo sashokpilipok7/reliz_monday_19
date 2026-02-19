@@ -1,0 +1,117 @@
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #5a0000, #ff0000, #4b0000);
+}
+
+main {
+  border: 5px solid black;
+  border-radius: 35px;
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+}
+
+header {
+  font-family: FANTASY;
+  color: darkred;
+  background-image: linear-gradient(to right, white, #272727);
+  text-align: center;
+  letter-spacing: 8px;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 100%px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  right: 0;
+}
+
+header img {
+  left: 10px;
+  position: absolute;
+  margin-left: 0px;
+}
+header a {
+  right: 10px;
+  position: absolute;
+  margin-right: 0px;
+  height: 75px;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.tovar img {
+  border: 4px solid black;
+  border-radius: 25px;
+}
+
+div {
+  display: flex;
+}
+
+.button a {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 3px;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-decoration: none;
+  backdrop-filter: blur(5px);
+}
+
+.tovar {
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.tovar {
+  width: 100%;
+}
+main {
+  background-image: linear-gradient(to right, #000000, #ff0000, #1f0000);
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+footer {
+  font-family: FANTASY;
+  color: darkred;
+  background-image: linear-gradient(to right, white, #272727);
+  text-align: center;
+  letter-spacing: 8px;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 30px;
+  width: 100%px;
+  margin-left: 40px;
+  margin-right: 40px;
+  position: absolute;
+  top: 850px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-bottom: 95px;
+}
+
+footer img {
+  left: 20px;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.tovar img:hover {
+  width: 300px;
+  height: 300px;
+  border: 5px solid gold;
+  transition: 0.5s linear;
+}
+
+.button:hover {
+  font-size: 35px;
+  transition: 0.5s linear;
+}
