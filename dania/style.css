@@ -1,0 +1,131 @@
+body {
+  font-family: sans-serif;
+}
+
+header img {
+  width: 950px;
+}
+
+header {
+  background-image: url('https://funko.com/on/demandware.static/-/Sites-FunkoUS-Library/default/dw89affc43/images/funko/site-logo-blue.svg');
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  flex-direction: column;
+}
+
+header nav {
+  margin-top: 20px;
+  background: white;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  color: white;
+  justify-content: center;
+  display: flex;
+  font-size: 64px;
+  text-align: center;
+}
+
+.footer {
+  padding: 40px 20px;
+  background-color: #212529;
+  color: white;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer img {
+  max-width: 150px;
+}
+
+.soptekst {
+  color: blue;
+  font-size: 26px;
+}
+
+p {
+  font-size: 23px;
+}
+
+section {
+  margin: 20px 20px;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.woter {
+  width: 100%;
+}
