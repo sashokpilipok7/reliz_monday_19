@@ -1,0 +1,302 @@
+body {
+  font-family: sans-serif;
+}
+
+header img {
+  border: solid blueviolet 10px;
+
+  width: 300px;
+  height: 300px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.textright p {
+  float: right;
+  font-size: 30px;
+  color: purple;
+  background-image: linear-gradient(blueviolet, plum);
+}
+.textleft p {
+  float: left;
+  font-size: 30px;
+  background-image: linear-gradient(lightcyan, blue);
+}
+main h1 {
+  float: left;
+  color: blueviolet;
+}
+main h1:hover {
+  float: left;
+
+  color: lightskyblue;
+}
+main h3:hover {
+  text-align: center;
+  font-size: 70px;
+  color: blueviolet;
+}
+main h3 {
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
+}
+
+.photo img {
+  width: 220px;
+  height: 270px;
+}
+main {
+  background-color: lightcyan;
+}
+header {
+  background-color: lightblue;
+}
+.megan img {
+  width: 230px;
+  height: 280px;
+}
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.megan p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.yoonchip p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.yoonchip img {
+  width: 240px;
+  height: 310px;
+}
+
+.Sophia p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.Sophia img {
+  width: 240px;
+  height: 310px;
+}
+
+.Sophia p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.Sophia img {
+  width: 240px;
+  height: 310px;
+}
+
+.Lara p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.Lara img {
+  width: 240px;
+  height: 310px;
+}
+
+.Dani p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.Dani img {
+  width: 240px;
+  height: 310px;
+}
+
+.Manon p {
+  text-align: right;
+  font-size: 20px;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7f00 16%,
+    #ffff00 33%,
+    #00ff00 50%,
+    #00ffff 66%,
+    #0000ff 83%,
+    #8b00ff 100%
+  );
+}
+.Manon img {
+  width: 240px;
+  height: 310px;
+}
+
+.Lara img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid green 5px;
+}
+.Sophia img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid blueviolet 5px;
+}
+.megan img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid orange 5px;
+}
+.Manon img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid yellow 5px;
+}
+.yoonchip img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid pink 5px;
+}
+.Dani img:hover {
+  width: 250px;
+  height: 300px;
+  border: solid cyan 5px;
+}
+
+.Touch img {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.Touch img:hover {
+  width: 270px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.Boom img {
+  width: 300px;
+  height: 350px;
+}
+.Apple img {
+  width: 300px;
+  height: 350px;
+}
+
+.Debut img {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.Debut img:hover {
+  width: 270px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Cats img {
+  width: 300px;
+  height: 350px;
+}
+
+.Way img {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.Way img:hover {
+  width: 270px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.flower img {
+  width: 300px;
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+}
+h5 {
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+  background-image: linear-gradient(blueviolet, lightblue);
+}
+.seashell {
+}
+footer p {
+  font-size: 25px;
+  background-image: linear-gradient(cyan, blue);
+}
+h6 {
+  font-size: 30px;
+  color: blue;
+}
+main h7 {
+  text-align: center;
+  font-size: 50px;
+  color: blueviolet;
+}
