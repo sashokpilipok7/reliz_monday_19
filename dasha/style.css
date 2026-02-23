@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  background-color: #d8dea7;
+}
+
+.header {
+  background-color: #ffad42;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+  width: 80%;
+  margin: 0 auto 30px auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.orange-box {
+  background-color: white;
+  border: 5px solid #f27c38;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  color: #d35400;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.list-box {
+  background-color: white;
+  border: 10px solid #f9dcb4;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  color: #d35400;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+img {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.big-photo {
+  width: 100%;
+  height: 300px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:900);
+
+.body {
+  margin: 0;
+}
+
+#red {
+  border-top: solid #433300;
+  border-width: 15px;
+  background: #96a055;
+
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  height: 180px;
+}
+
+.text {
+  color: #65511b;
+  font-family: Lato;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text2 {
+  color: #4a3c14;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.text3 {
+  color: #4a3c14;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+  float: center;
+}
+.small:hover {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 9;
+}
+
+#page-footer {
+  display: none !important;
+}
