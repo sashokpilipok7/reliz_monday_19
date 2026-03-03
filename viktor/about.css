@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 40px;
+}
+
+header p {
+  color: purple;
+  font-size: 25px;
+}
+
+.table_component {
+  overflow: auto;
+  width: 100%;
+}
+
+.table_component table {
+  border: 1px solid #dededf;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+.table_component caption {
+  caption-side: top;
+  text-align: left;
+}
+
+.table_component th {
+  border: 1px solid #dededf;
+  background-color: #eceff1;
+  color: #000000;
+  padding: 5px;
+}
+
+.table_component td {
+  border: 1px solid #dededf;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.body {
+  margin: 0;
+}
+
+#red {
+  border-top: solid #c25ccf;
+  border-width: 15px;
+  background: #000000;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  height: 180px;
+}
+
+.text {
+  color: #424242;
+  font-family: Lato;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.text2 {
+  color: #424242;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -50px;
+}
+
+.text3 {
+  color: #424242;
+  font-family: Lato;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -20px;
+  float: center;
+}
+
+#page-footer {
+  display: none !important;
+}
+
+footer img {
+  height: 400px;
+}
+.hero-img {
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 800px;
+}

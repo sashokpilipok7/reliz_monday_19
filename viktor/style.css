@@ -1,0 +1,184 @@
+.about-link {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.main-title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
+  font-family: Arial, sans-serif;
+}
+
+.md-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.md-join-btn {
+  position: relative;
+  font-size: 36px;
+  padding: 20px 50px;
+  background-color: #222;
+  border: 3px solid orange;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.md-join-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: orange;
+}
+
+.md-join-btn:hover .md-join-default {
+  opacity: 0;
+}
+
+.md-join-btn:hover .md-join-hover {
+  opacity: 1;
+}
+
+.md-faction-text {
+  position: relative;
+  font-size: 24px;
+  color: yellow;
+  text-align: center;
+  transition: color 0.3s;
+}
+
+.md-faction-hover {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  color: orange;
+  font-size: 24px;
+}
+
+.md-join-btn:hover + .md-faction-text .md-faction-default {
+  opacity: 0;
+}
+
+.md-join-btn:hover + .md-faction-text .md-faction-hover {
+  opacity: 1;
+}
+
+.flag-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.flag-image {
+  width: 300px;
+  max-width: 100%;
+  border: 3px solid #444;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.flag-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+@keyframes goldGlow {
+  0% {
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+  }
+}
+
+.flag-image {
+  width: 300px;
+  max-width: 100%;
+  border: 3px solid gold;
+  border-radius: 12px;
+  animation: goldGlow 2.5s infinite ease-in-out;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.flag-image:hover {
+  transform: scale(1.05);
+}
+
+.md-faction-box {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #1a1a1a;
+  border: 2px solid gold;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.4),
+    0 0 40px rgba(255, 165, 0, 0.2);
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.md-faction-box:hover {
+  transform: scale(1.02);
+  box-shadow:
+    0 0 30px rgba(255, 215, 0, 0.7),
+    0 0 60px rgba(255, 165, 0, 0.4);
+}
+
+.md-faction-title {
+  color: gold;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.md-faction-description {
+  color: #ddd;
+  font-size: 18px;
+  line-height: 1.6;
+}
