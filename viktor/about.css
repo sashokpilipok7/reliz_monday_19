@@ -99,3 +99,8 @@ footer img {
   width: 100%;
   max-width: 800px;
 }
+table {
+  width: 600px;
+  max-width: 60%;
+  max-height: 300px;
+}
