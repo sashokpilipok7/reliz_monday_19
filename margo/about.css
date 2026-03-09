@@ -1,67 +1,26 @@
 body {
   font-family: sans-serif;
 }
-body {
-  margin: 0;
-  background: linear-gradient(to bottom, black, purple);
-  color: white;
-  font-family: Arial;
-}
-
-.hero {
+h1 {
   text-align: center;
-  padding: 80px 20px;
-  position: relative;
+  font-size: 50px;
+  color: rgb(0, 157, 255);
 }
-
-.hero h1 {
-  font-size: 70px;
-  margin: 0;
-  letter-spacing: 5px;
+header {
+  background-image: linear-gradient(rgb(230, 0, 251), rgb(162, 255, 0));
 }
-
-.subtitle {
-  font-size: 20px;
-  color: #ff99ff;
-}
-
-.content {
-  width: 80%;
-  margin: auto;
-}
-
-.card {
-  background: rgba(255, 255, 255, 0.08);
-  padding: 25px;
-  margin: 30px 0;
-  border-radius: 20px;
-}
-
-.card:hover {
-  background: #ff66cc;
-  transform: scale(1.03);
-}
-
-.button-box {
+h2 {
   text-align: center;
-  margin: 40px 0;
+  font-size: 50px;
+  color: rgb(0, 174, 255);
 }
-
-.button-box a {
-  background: #ff66cc;
-  padding: 15px 30px;
-  border-radius: 30px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: 0.3s;
+.Apple img {
+  width: 200px;
+  height: 290px;
 }
-
-.button-box a:hover {
-  background: white;
-  color: black;
+html {
+  background-image: linear-gradient(rgb(255, 0, 255), rgb(162, 255, 0));
 }
-
-.button-box a:visited {
-  background: #993366;
+main {
+  background-image: linear-gradient(rgb(189, 254, 135), rgb(162, 255, 0));
 }
