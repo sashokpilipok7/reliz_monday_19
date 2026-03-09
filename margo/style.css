@@ -1,6 +1,9 @@
 body {
   font-family: sans-serif;
 }
+head {
+  background-color: #5e5e5e;
+}
 
 header img {
   border: solid blueviolet 10px;
@@ -11,17 +14,30 @@ header img {
   display: block;
   margin: 0 auto;
 }
+.nav ul {
+  display: flex;
+  gap: 20px;
+  color: #ffff00;
+}
+.nav a {
+  text-decoration: none;
+  color: #9500ff;
+  text-align: center;
+}
+li {
+  color: #000000;
+}
 
 .textright p {
   float: right;
   font-size: 30px;
-  color: purple;
-  background-image: linear-gradient(blueviolet, plum);
+  color: rgb(0, 0, 0);
+  background-image: linear-gradient(#95006d, rgb(164, 131, 208));
 }
 .textleft p {
   float: left;
   font-size: 30px;
-  background-image: linear-gradient(lightcyan, blue);
+  background-image: linear-gradient(#95006d, rgb(164, 131, 208));
 }
 main h1 {
   float: left;
@@ -30,17 +46,17 @@ main h1 {
 main h1:hover {
   float: left;
 
-  color: lightskyblue;
+  color: rgb(87, 10, 71);
 }
 main h3:hover {
   text-align: center;
   font-size: 70px;
-  color: blueviolet;
+  color: rgb(0, 0, 0);
 }
 main h3 {
   text-align: center;
   font-size: 50px;
-  color: blueviolet;
+  color: rgb(47, 0, 20);
 }
 
 .photo img {
@@ -48,10 +64,10 @@ main h3 {
   height: 270px;
 }
 main {
-  background-color: lightcyan;
+  background-color: rgb(135, 64, 116);
 }
 header {
-  background-color: lightblue;
+  background-color: rgb(80, 0, 84);
 }
 .megan img {
   width: 230px;
@@ -65,69 +81,28 @@ h4 {
 .megan p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#85583a, rgb(223, 100, 153));
 }
 .yoonchip p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#ad488f, #93304f);
 }
 .yoonchip img {
   width: 240px;
-  height: 310px;
+  height: 280px;
 }
 
 .Sophia p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#ad68d1, #e371e0);
 }
 .Sophia img {
   width: 240px;
   height: 310px;
 }
 
-.Sophia p {
-  text-align: right;
-  font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
-}
 .Sophia img {
   width: 240px;
   height: 310px;
@@ -136,16 +111,7 @@ h4 {
 .Lara p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#215d1f, #6cba4b);
 }
 .Lara img {
   width: 240px;
@@ -155,16 +121,7 @@ h4 {
 .Dani p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#54d0e6, #474fe5);
 }
 .Dani img {
   width: 240px;
@@ -174,16 +131,7 @@ h4 {
 .Manon p {
   text-align: right;
   font-size: 20px;
-  background: linear-gradient(
-    90deg,
-    #ff0000 0%,
-    #ff7f00 16%,
-    #ffff00 33%,
-    #00ff00 50%,
-    #00ffff 66%,
-    #0000ff 83%,
-    #8b00ff 100%
-  );
+  background: linear-gradient(#f8f16f, #fcdf00);
 }
 .Manon img {
   width: 240px;
@@ -287,16 +235,58 @@ h5 {
 }
 .seashell {
 }
+footer {
+  background-color: #ad488f;
+}
 footer p {
   font-size: 25px;
-  background-image: linear-gradient(cyan, blue);
+  background-image: linear-gradient(rgb(92, 0, 18), rgb(139, 34, 104));
+  color: #ffffff;
 }
+
 h6 {
   font-size: 30px;
-  color: blue;
+  color: rgb(78, 0, 39);
 }
 main h7 {
   text-align: center;
   font-size: 50px;
-  color: blueviolet;
+
+  color: rgb(116, 2, 30);
+}
+
+.gap img {
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.gap p {
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+}
+.gap p :hover {
+  text-align: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+h8 {
+  display: block;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 50px;
+}
+a {
+  display: block;
+  margin: 0 auto;
+  color: #510000;
+  font-size: 30px;
+}
+
+a:visited {
+  display: block;
+  margin: 0 auto;
+  color: #942f43;
+  font-size: 30px;
 }
