@@ -129,7 +129,13 @@ img {
   text-decoration: underline;
   color: #ffffff;
 }
-
+footer p{
+  display: block;
+  text-align: center;
+  color: white;
+  margin: 0;
+  margin-bottom: 10px;  
+}
 /* === Tablet (max 768px) === */
 @media (max-width: 768px) {
   footer {
